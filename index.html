@@ -11,24 +11,23 @@
       <h1 class="Todo">Todo</h1>
       <div class="card">
         <header>
-          <p>Thur 9</p>
-          <h1>6:23 AM</h1>
+          <p id="date">Thur 9</p>
+          <h1 id="time">6:23 AM</h1>
         </header>
-        <div class="search">
-          <form>
-            <img src="img/right.png" alt="right icon" />
-            <input type="text" placeholder="Note" id="input" />
-          </form>
-          <button id="button">
-            <img src="img/Vector.png" alt="plus icon" />
-          </button>
-        </div>
-        <div class="box">
-          <ul id="list">
-            <!-- <li></li> -->
-            <!-- <li></li> -->
-          </ul>
-        </div>
+        <form id="form">
+          <div class="search">
+            <div class="box">
+              <img src="img/right.png" alt="right icon" />
+              <input type="text" placeholder="Note" id="input" />
+            </div>
+            <button id="button" type="submit">
+              <img src="img/Vector.png" alt="plus icon" />
+            </button>
+          </div>
+          <div class="list">
+            <ul id="list"></ul>
+          </div>
+        </form>
       </div>
     </div>
     <script src="script.js"></script>
